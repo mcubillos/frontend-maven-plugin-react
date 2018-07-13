@@ -1,0 +1,58 @@
+.nav-template .user-profile-popover {
+  max-width: initial !important;
+  padding: 0; }
+  .nav-template .user-profile-popover .user-profile-container {
+    background: #fff;
+    height: auto;
+    width: 21rem; }
+    .nav-template .user-profile-popover .user-profile-container span {
+      color: #333; }
+    .nav-template .user-profile-popover .user-profile-container li.profile-list-item {
+      align-items: center;
+      border-bottom: 0.1rem solid #f2f2f2;
+      cursor: pointer;
+      display: flex;
+      justify-content: flex-start;
+      padding: 1rem 1.2rem; }
+      .nav-template .user-profile-popover .user-profile-container li.profile-list-item.profile .user-name {
+        font-size: 1.25rem;
+        height: 3rem;
+        line-height: 3rem;
+        width: 3rem; }
+      .nav-template .user-profile-popover .user-profile-container li.profile-list-item.profile .user-text {
+        margin-left: 1.25rem; }
+        .nav-template .user-profile-popover .user-profile-container li.profile-list-item.profile .user-text .user-full-name {
+          display: block;
+          text-align: left;
+          font-size: 1rem; }
+        .nav-template .user-profile-popover .user-profile-container li.profile-list-item.profile .user-text .user-mail {
+          display: block;
+          text-align: left;
+          font-size: 0.75rem; }
+      .nav-template .user-profile-popover .user-profile-container li.profile-list-item.logout {
+        border-bottom: none; }
+        .nav-template .user-profile-popover .user-profile-container li.profile-list-item.logout .logout-icon {
+          color: #666666;
+          height: 1rem;
+          margin-right: 0.625rem;
+          width: 1rem; }
+        .nav-template .user-profile-popover .user-profile-container li.profile-list-item.logout span {
+          font-size: 0.875rem; }
+
+.nav-template .navbar {
+  border: none;
+  width: 1300px; }
+  .nav-template .navbar .logo-box {
+    height: 59px;
+    width: 160px; }
+  .nav-template .navbar .user-name {
+    background-color: #d04a02 !important; }
+  .nav-template .navbar .app-name {
+    border-right: none;
+    box-sizing: border-box; }
+  .nav-template .navbar .global-search .input-default {
+    background: #f5f5f5;
+    border: none; }
+  .nav-template .navbar .global-search input {
+    background: #f5f5f5;
+    width: 100%; }

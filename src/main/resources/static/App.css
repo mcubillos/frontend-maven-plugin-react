@@ -1,0 +1,24 @@
+.outer-leftNav .content {
+  height: 100%;
+  margin-left: 36px;
+  overflow: hidden;
+  padding-bottom: 2.5rem;
+  padding-top: 3.75rem; }
+  .outer-leftNav .content .title {
+    color: #000000;
+    font-family: Georgia;
+    font-size: 28px;
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: bold;
+    height: 32px;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-top: 31px;
+    width: 894px; }
+  .outer-leftNav .content .container-tools {
+    background: red;
+    float: left;
+    height: 642px;
+    margin-top: 32px;
+    width: 894px; }
