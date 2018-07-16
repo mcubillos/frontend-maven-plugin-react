@@ -24,8 +24,8 @@
 /nbdist/
 /.nb-gradle/
 
-### Node ###
+#Node
 /front-end/node_modules/
-/src/main/resources/UI_source_code/
-/node_modules/
-/node/
+
+#Maven
+/front-end/build
