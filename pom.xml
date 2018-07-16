@@ -30,10 +30,21 @@
 							<npmVersion>6.1.0</npmVersion>
 							<nodeDownloadRoot>http://nodejs.org/dist/</nodeDownloadRoot>
 							<npmDownloadRoot>http://registry.npmjs.org/npm/-/</npmDownloadRoot>
-							<workingDirectory>src/main/resources/UI_source_code</workingDirectory>
 						</configuration>
 					</execution>
 
+					<execution>
+						<id>npm install appkit-react</id>
+						<goals>
+							<goal>npm</goal>
+						</goals>
+						<configuration>
+							<arguments>install
+								--registry=https://nisappsec.pwc.com/artifactory/api/npm/pwc-npm-gcp/
+								appkit-react --save</arguments>
+						</configuration>
+					</execution>
+					
 					<execution>
 						<id>npm install</id>
 						<goals>
@@ -41,7 +52,6 @@
 						</goals>
 						<configuration>
 							<arguments>install</arguments>
-							<workingDirectory>src/main/resources/UI_source_code</workingDirectory>
 						</configuration>
 					</execution>
 
@@ -52,24 +62,6 @@
 						</goals>
 						<configuration>
 							<arguments>run build</arguments>
-							<workingDirectory>src/main/resources/UI_source_code</workingDirectory>
-						</configuration>
-					</execution>
-
-					<execution>
-						<id>gulp build</id>
-						<goals>
-							<goal>gulp</goal>
-						</goals>
-
-						<!-- optional: the default phase is "generate-resources" -->
-						<phase>generate-resources</phase>
-
-						<configuration>
-							<!-- optional: if not specified, it will run gulp's default task (and 
-								you can remove this whole <configuration> section.) -->
-							<arguments>build</arguments>
-							<workingDirectory>src/main/resources/UI_source_code</workingDirectory>
 						</configuration>
 					</execution>
 				</executions>

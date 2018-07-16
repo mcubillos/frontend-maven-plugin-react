@@ -26,4 +26,6 @@
 
 ### Node ###
 /front-end/node_modules/
-/src/main/resources/UI_source_code
+/src/main/resources/UI_source_code/
+/node_modules/
+/node/
